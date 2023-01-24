@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: meganerddev/sync-upstream-repo@v1.3.0
         with:
-          upstream_repo: "https://github.com/gruntwork-io/gruntwork-installer.git"
+          upstream_repo: "https://github.com/gruntwork-io/kubergrunt.git"
           upstream_branch: main
           downstream_branch: main
           token: ${{ secrets.GITHUB_TOKEN }}
